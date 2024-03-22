@@ -1,0 +1,1 @@
+If you need to import some pre-written HTML, you can place files here then bring them into your project using Include("YourFilename.html"). The Include element automatically looks in this Includes folder.

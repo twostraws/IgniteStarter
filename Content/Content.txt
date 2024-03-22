@@ -1,0 +1,3 @@
+If you want Ignite to generate pages based on Markdown files, you should place them in here. You can group your content however, you want – category, year, etc – just by placing them into subfolders of Content.
+
+The same path (minus "Content") is used to place your rendered Markdown files in the Build folder, but you can also use the "path" YAML front matter to customize this.
