@@ -7,11 +7,9 @@ let package = Package(
     name: "IgniteStarter",
     platforms: [.macOS(.v13)],
     dependencies: [
-        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
+        .package(url: "https://github.com/twostraws/Ignite", branch: "main")
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .executableTarget(
             name: "IgniteStarter",
             dependencies: ["Ignite"]),

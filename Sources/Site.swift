@@ -15,46 +15,15 @@ struct IgniteWebsite {
 }
 
 struct ExampleSite: Site {    
-    var name = "My Awesome Site"
+    var name = "Hello World"
     var baseTitle = " – My Awesome Site"
-    var url = URL("https://www.yoursite.com")
-
+    var url = URL("https://www.example.com")
     var builtInIconsEnabled = true
-    var syntaxHighlighters = [SyntaxHighlighter.swift, .python, .ruby]
-    var feedConfiguration = FeedConfiguration(mode: .full, contentCount: 20, image: .init(url: "https://www.yoursite.com/images/icon32.png", width: 32, height: 32))
-    var robotsConfiguration = Robots()
-    var author = "Paul Hudson"
+
+    var author = "John Appleseed"
 
     var homePage = Home()
-    var tagPage = Tags()
     var theme = MyTheme()
-
-    var pages: [any StaticPage] {
-        ContentExamples()
-        GridExamples()
-        NavigationExamples()
-        TextExamples()
-
-        AccordionExamples()
-        AlertExamples()
-        BadgeExamples()
-        CardExamples()
-        CarouselExamples()
-        CodeExamples()
-        DropdownExamples()
-        EmbedExamples()
-        ImageExamples()
-        IncludeExamples()
-        LinkExamples()
-        ListExamples()
-        QuoteExamples()
-        StylingExamples()
-        TableExamples()
-    }
-
-    var layouts: [any ContentPage] {
-        Story()
-    }
 }
 
 
