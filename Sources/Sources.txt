@@ -1,1 +1,0 @@
-In this starter I've grouped thing by usage: Components, Layouts, Pages, and Themes. However, this is entirely optional – place your code in any structure you want.
