@@ -8,6 +8,8 @@ struct MyTheme: Theme {
 
             Body {
                 page.body
+
+                IgniteFooter()
             }
         }
     }
