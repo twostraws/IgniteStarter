@@ -9,6 +9,7 @@ struct MainLayout: Layout {
         HTMLDocument {
             HTMLHead(for: page, with: siteConfiguration)
             HTMLBody(for: page)
+                .class("container")
         }
     }
 }
