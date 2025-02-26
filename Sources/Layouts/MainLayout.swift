@@ -3,9 +3,10 @@ import Ignite
 
 struct MainLayout: Layout {
     var body: some HTML {
-        HTMLDocument {
-            HTMLHead(for: page)
-            HTMLBody(for: page)
+//        HTML { } // Required only if you need to add extra functionality, like analytics
+        Body {
+            content
+            IgniteFooter()
         }
     }
 }
